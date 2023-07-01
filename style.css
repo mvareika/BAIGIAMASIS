@@ -389,7 +389,7 @@ a:hover{
     font-size: 15px;
     font-weight: 300;
     width: 26%;
-    line-height: ;
+    line-height: 25px;
 }
 .p4{
     position: absolute;
@@ -399,4 +399,5 @@ a:hover{
     font-size: 15px;
     font-weight: 300;
     width: 26%;
+    line-height: 25px;
 }

@@ -167,6 +167,7 @@ a:hover{
         color:#86878B;
         width: 70%;
         line-height: 25px;
+        margin-bottom: 10px;
     }
 }
 .social_nav{
@@ -177,4 +178,132 @@ a:hover{
     display: flex;
     justify-content: row;
     align-items: center;
+}
+
+.mountains{
+    background-image:
+    linear-gradient(to bottom right, rgba(226, 120, 102, 0.2), rgba(102, 150, 226, 0.55)),
+    url('images/mountains.png');
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+    background-position: 30% 59%;
+}
+.box{
+    width: 125px;
+    height: 125px;
+    background: #E27866;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+    opacity: 70%;
+    filter: brightness(80%);
+}
+
+.col_box{
+    position: absolute;
+    top: 1250px;
+    left: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.box_t{
+    transform: rotate(-45deg);
+}
+
+.box:hover{
+    transition: 0.5s;
+    opacity: 100%;
+    filter: brightness(100%);
+    cursor:url(images/pointer.png), auto;
+}
+
+.texth{
+    position: absolute;
+    top: 1270px;
+    left: 450px;
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    width:37%;
+    display: flex;
+    text-align: left;
+}
+.textp1{
+    position: absolute;
+    top: 1480px;
+    left: 450px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    width:37%;
+    display: flex;
+    text-align: left;
+}
+/* .squares{
+    
+    background: none;
+}
+.squares:hover{
+    background: #E27866;
+}
+
+
+.rectangle{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    position: absolute;
+    top: 1450px;
+    left: 1225px;
+    
+}
+
+.row1{
+    position: absolute;
+    top: 1250px;
+    left: 1225px;
+    display: flex;
+    flex-direction: row;
+}
+ */
+
+ .box_left{
+    position: absolute;
+    top: 1250px;
+    left: 1225px;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 180px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.137);
+    background: none;
+}
+  .box_left:hover {
+    background: #E27866;
+    z-index: 0;
+    opacity: 1;
+  }
+ .box_right{
+    position: absolute;
+    top: 1250px;
+    left: 1425px;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 180px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
+}
+ .box_bottom{
+    width: 380px;
+    height: 180px;
+    margin-top: 20px;
+    position: absolute;
+    top: 1450px;
+    left: 1225px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
 }

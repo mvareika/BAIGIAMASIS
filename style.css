@@ -186,6 +186,11 @@ a:hover{
     align-items: center;
     box-shadow: 2px 2px black;
 }
+.wifi{
+    width: 28px;
+    filter: invert(79%) sepia(63%) saturate(4546%) hue-rotate(316deg) brightness(96%) contrast(86%);
+    opacity: 65%;
+}
 
 .mountains{
     background-image:
@@ -401,3 +406,145 @@ a:hover{
     width: 26%;
     line-height: 25px;
 }
+
+.eye{
+    position:absolute;
+    left: 1013px;
+    top: 2413px;
+    width: 43px;
+    filter: invert(100%) sepia(2%) saturate(215%) hue-rotate(263deg) brightness(118%) contrast(100%);
+}
+.chat-bubble{
+    position:absolute;
+    left: 1017px;
+    top: 2566px;
+    width: 36px;
+    filter: invert(100%) sepia(2%) saturate(215%) hue-rotate(263deg) brightness(118%) contrast(100%);
+}
+.white{
+    background: #FFFFFF;
+    height: 850px;
+    width: 100%;
+}
+.why{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 2950px;
+    left: 720px;
+}
+
+.dividero{
+    position: absolute;
+    top: 3025px;
+    left: 920px;
+    width: 4%;
+    height: 3px;
+}
+
+.p5{
+    position: absolute;
+    top: 3070px;
+    left: 750px;
+    color: grey;
+}
+
+.three{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    top: 550px;
+    width: 80%;
+    left: 10%;
+    font-size: 25px;
+    align-items: center;
+}
+
+.circle3{
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border: 3px solid #E27866;
+    position: absolute;
+    top: 3200px;
+    left: 415px;
+    border-radius: 100%;
+}
+.award{
+    position: absolute;
+    top: 3215px;
+    left: 430px;
+    width: 50px;
+    filter: invert(68%) sepia(63%) saturate(2771%) hue-rotate(315deg) brightness(91%) contrast(89%);
+
+
+}
+.p6{
+    position: absolute;
+    top: 3400px;
+    left: 280px;
+    display: flex;
+    text-align: center;
+    width: 18%;
+    height:15%;
+    color: grey;
+}
+.circle4{
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border: 3px solid #E27866;
+    position: absolute;
+    top: 3200px;
+    left: 915px;
+    border-radius: 100%;
+}
+.lotus{
+    position: absolute;
+    top: 3222px;
+    left: 938px;
+    width: 35px;
+    filter: invert(68%) sepia(63%) saturate(2771%) hue-rotate(315deg) brightness(91%) contrast(89%);
+}
+
+.p7{
+    position: absolute;
+    top: 3400px;
+    left: 765px;
+    display: flex;
+    text-align: center;
+    width: 20%;
+    height:15%;
+    color: grey;
+}
+.circle5{
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    border: 3px solid #E27866;
+    position: absolute;
+    top: 3200px;
+    left: 1405px;
+    border-radius: 100%;
+}
+.visa{
+    position: absolute;
+    top: 3220px;
+    left: 1425px;
+    width: 40px;
+    filter: invert(68%) sepia(63%) saturate(2771%) hue-rotate(315deg) brightness(91%) contrast(89%);
+
+}
+.p8{
+    position: absolute;
+    top: 3400px;
+    left: 1260px;
+    display: flex;
+    text-align: center;
+    width: 20%;
+    height:15%;
+    color: grey;
+}
+

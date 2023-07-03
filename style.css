@@ -70,6 +70,8 @@ a:hover{
     filter: brightness(50%);
 }
 
+
+
 .logo2{
     position: absolute;
     top: 275px;
@@ -170,6 +172,34 @@ a:hover{
     .bottom:hover{
             cursor:url(images/pointer.png), auto;
         }
+
+.form_f{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    margin-top: 20px;
+    border-bottom: 1px rgba(0, 0, 0, 0.26);
+    width: 440px;
+}
+
+.subscription{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.blank{
+    color: white;
+}
+.radios{
+    margin-top: 20px;
+}
+.details_f{
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    font-weight: 600;
+}
         /* register form end */
 /* first section end */
 
@@ -805,7 +835,7 @@ a:hover{
     border: 1px solid #000000;
     border-radius: 4px;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
     box-sizing: border-box;
   }
 
@@ -814,16 +844,16 @@ a:hover{
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #000000;
+    border: 1px solid #00000031;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.644);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
     border-radius: 4px;
     box-sizing: border-box;
   }
 
   input[type=submit] {
     width: 35%;
-    height: 50px;
+    height: 60px;
     font-size: 18px;
     background-color: #41D395;
     color: white;
@@ -833,6 +863,15 @@ a:hover{
     border-radius: 4px;
     cursor:url(images/pointer.png), auto;
   }
+  .subscription1{
+    margin-top: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    text-align: left;
+    position: relative;
+    left: 80px;
+}
+  /* CONTACTS SECTION END */
 .socials2{
     width: 45%;
     height: 150px;
@@ -855,7 +894,7 @@ a:hover{
     color: grey;
     font-size: 20px;
 }
-/* CONTACTS SECTION END */
+
 
 #features_s{
     position: absolute;

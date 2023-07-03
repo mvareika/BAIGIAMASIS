@@ -41,7 +41,24 @@
         <button class="download">DOWNLOAD</button>
 
         <div class="top"><p class="top_text">Try Your <span class="free">FREE</span> Trial Today</p></div>
-        <div class="middle"></div>
+        <div class="middle">
+                <label class="details_f" for="form_f">Your details</label>
+                <form class="form_f" action="#">
+                    <input type="text" id="fname" name="firstname" placeholder="First name">
+                    <input type="text" id="lname" name="lastname" placeholder="Last name">
+                    <input type="number" id="number" name="number" placeholder="Phone number">
+               <div class="radios">
+               <label for="radio">Type of subscription</label>
+               <div class="subscription">
+                <input type="radio">
+                <label  for="Monthly">MONTHLY <span class="blank"> ___</span></label>
+
+                <input type="radio">
+                <label  for="Monthly">YEARLY</label>
+                
+                </form></div></div>
+
+        </div>
         <button class="bottom">GET STARTED</button>
     </section>
 <!-- FIRST SECTION END -->
@@ -205,6 +222,13 @@
                 <input type="text" id="fname" name="firstname" placeholder="First name">
                 <input type="text" id="lname" name="lastname" placeholder="Last name">
                 <input type="number" id="number" name="number" placeholder="Phone number">
+                <div class="subscription1">
+                    <input type="radio">
+                    <label  for="Monthly">PERSONAL <span class="blank"> ___</span></label>
+    
+                    <input type="radio">
+                    <label  for="Monthly">COMPANY</label>
+                </div>
                 <input type="submit" value="SEND">
                 
             </form>

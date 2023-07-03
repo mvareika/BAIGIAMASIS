@@ -2,24 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>baigiamasis</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gulp template</title>
+  <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="script.js">
+  <script src="script.js"></script>
 </head>
 <body>
     <nav class="bar">
         <img src="images/logo/brand.svg" alt="">
         <spam class="links">
         <li>
-            <a href="#">Features</a>
-            <a href="#">About</a>
-            <a href="#">Pricing</a>
-            <a href="#">Reviews</a>
-            <a href="#">Contact</a></spam>
+            <a class="nav_a" href="#features_s">Features</a>
+            <a class="nav_a" href="#about_s">About</a>
+            <a class="nav_a" href="#pricing_s">Pricing</a>
+            <a class="nav_a" href="#reviews_s">Reviews</a>
+            <a class="nav_a" href="#contact_s">Contact</a></spam>
         </li>
     </nav>
+<!-- Scrolling onclick -->
+    <div id="features_s"></div>
+    <div id="about_s"></div>
+    <div id="pricing_s"></div>
+    <div id="reviews_s"></div>
+    <div id="contact_s"></div>
+<!--  -->
 
+<!-- FIRST SECTION -->
     <section class="city">
         <img class="cityimg" src="images/city.png" alt="city">
         
@@ -33,7 +44,9 @@
         <div class="middle"></div>
         <button class="bottom">GET STARTED</button>
     </section>
+<!-- FIRST SECTION END -->
 
+<!-- SECTION WITH SOCIALS -->
     <section class="row">
         <div class="text">
         <h1 class="Social">Social Media</h1>
@@ -45,15 +58,20 @@
             <a href="#"><img src="images/logo/twitter.svg"></a>
             <a href="#"><img src="images/logo/pinterest.svg"></a>
             <a href="#"><img class="wifi" src="images/logo/wif.svg"></a>
+            
         </div>
+        
     </section>
+<!--  -->
 
+<!-- 2ND SECTION -->
     <section>
+        
         <div class="mountains"></div>
         <div class="col_box">
-            <div class="box"><span class="box_t"> REGISTER</span></div>
-            <div class="box"><span class="box_t"> APPLY</span></div>
-            <div class="box"><span class="box_t"> RECEIVE</span></div>
+            <button class="box"><span class="box_t"> REGISTER</span></button>
+            <button class="box"><span class="box_t"> APPLY</span></button>
+            <button class="box"><span class="box_t"> RECEIVE</span></button>
         </div>
 
         <div class="texth">Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</div>
@@ -62,14 +80,18 @@
             <br><br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim maxime harum!
         </p></div>
+        
     </section>
+
 <section>
     <img src="images/cabbage.png" alt="cabbage" class="box_left"/>
     <div class="hover1">Explore</div>
     <img src="images/fruits.png" alt="fruits" class="box_right"/>
     <img src="images/shoes.png" alt="shoes" class="box_bottom"/>
 </section>
+<!-- 2ND SECTION END -->
 
+<!-- FEATURES SECTION START -->
 <section>
     <div class="black">
         <img src="images/logo/brand.svg" alt="brand" class="brand">
@@ -86,7 +108,9 @@
         <img class="chat-bubble" src="images/chat-bubble.svg" alt="chat-bubble">
     </div>
 </section>
+<!-- FEATURES SECTION END -->
 
+<!-- ABOUT SECTION START -->
 <section>
 <div class="white">
 <h1 class="why">WHY THIS IS AWESOME</h1>
@@ -109,7 +133,9 @@
 <p class="p7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore, maxime possimus.</p>
 <p class="p8">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </section>
+<!-- ABOUT SECTION END -->
 
+<!-- PRICING SECTION START -->
 <section>
 
     <div class="blue">
@@ -159,6 +185,45 @@
 
     </div>
 </section>
+<!-- PRICING SECTION END -->
 
+<!-- REVIEWS SECTION START -->
+<section>
+<div class="white">
+
+</div>
+</section>
+<!-- REVIEWS SECTION END -->
+
+<!-- CONTACTS SECTIONS START -->
+<section>
+    <div class="orange_b">
+        <h1 class="contact">CONTACT US</h1>
+            <p class="p12">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="form_window">
+            <form action="#">
+                <input type="text" id="fname" name="firstname" placeholder="First name">
+                <input type="text" id="lname" name="lastname" placeholder="Last name">
+                <input type="number" id="number" name="number" placeholder="Phone number">
+                <input type="submit" value="SEND">
+                
+            </form>
+        </div>
+    </div>
+</section>
+
+<section class="socials_b">
+    <div class="socials2">
+        <a href="#"><img src="images/logo/facebook-logo.svg" alt="facebook"></a>
+        <a href="#"><img src="images/logo/instagram-logo.svg"></a>
+        <a href="#"><img src="images/logo/twitter.svg"></a>
+        <a href="#"><img src="images/logo/pinterest.svg"></a>
+        <a href="#"><img class="wifi" src="images/logo/wif.svg"></a>
+        
+    </div>
+    <div class="copyright"><p>© 2019 Cheshire County</p></div>
+</section>
+
+<!-- CONTACTS SECTION END -->
 </body>
 </html>

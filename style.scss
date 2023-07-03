@@ -4,8 +4,7 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif; 
 }
-html{scroll-behavior:smooth}
-/* navigation */
+
 .bar{
     background: black;
     color: white;
@@ -36,14 +35,6 @@ html{scroll-behavior:smooth}
     gap:40px;
     
 }
-
-.nav_a::before{
-    content: "";
-    width: 10px;
-    height: 3px;
-    background: #E27866;
-}
-
 li{
     list-style-type:none;
 }
@@ -60,9 +51,9 @@ a:hover{
     opacity: 80%;
     transition: 0.5s;
 }
-/*nav end*/
 
-/* first section */
+
+    
 .cityimg{
     object-fit: cover;
     width: 100%;
@@ -119,8 +110,7 @@ a:hover{
 .download:hover{
     cursor:url(images/pointer.png), auto;
 }
-/*  */
-/* first section register form */
+
 .top{
     position: absolute;
     top:280px;
@@ -170,10 +160,7 @@ a:hover{
     .bottom:hover{
             cursor:url(images/pointer.png), auto;
         }
-        /* register form end */
-/* first section end */
 
-/* socials start */
 .text{
     padding: 20px;
     margin-left: 190px;
@@ -204,9 +191,7 @@ a:hover{
     filter: invert(79%) sepia(63%) saturate(4546%) hue-rotate(316deg) brightness(96%) contrast(86%);
     opacity: 65%;
 }
-/* socials end */
 
-/* second section start */
 .mountains{
     background-image:
     linear-gradient(to bottom right, rgba(226, 120, 102, 0.2), rgba(102, 150, 226, 0.55)),
@@ -227,7 +212,6 @@ a:hover{
     box-shadow: 2px 2px rgba(0, 0, 0, 0.212);
     opacity: 80%;
     filter: brightness(80%);
-    border: none;
 }
 
 .col_box{
@@ -325,9 +309,6 @@ a:hover{
     cursor:url(images/pointer.png), auto;
     
 }
-/* second section end */
-
-/* features section start */
 .black{
     background: #1C1C1C;
     height: 850px;
@@ -440,8 +421,6 @@ a:hover{
     width: 36px;
     filter: invert(100%) sepia(2%) saturate(215%) hue-rotate(263deg) brightness(118%) contrast(100%);
 }
-/* features section end */
-/* ABOUT SECTION */
 .white{
     background: #FFFFFF;
     height: 850px;
@@ -470,7 +449,7 @@ a:hover{
     left: 750px;
     color: grey;
 }
-/* THREE CAPTIONS */
+
 .three{
     display: flex;
     justify-content: space-around;
@@ -478,11 +457,11 @@ a:hover{
     position: relative;
     top: 550px;
     width: 80%;
-    left: 11%;
+    left: 10%;
     font-size: 25px;
     align-items: center;
 }
-/* FIRST BLOCK */
+
 .circle3{
     width: 75px;
     height: 75px;
@@ -490,13 +469,13 @@ a:hover{
     border: 3px solid #E27866;
     position: absolute;
     top: 3200px;
-    left: 435px;
+    left: 415px;
     border-radius: 100%;
 }
 .award{
     position: absolute;
     top: 3215px;
-    left: 450px;
+    left: 430px;
     width: 50px;
     filter: invert(68%) sepia(63%) saturate(2771%) hue-rotate(315deg) brightness(91%) contrast(89%);
 
@@ -505,16 +484,13 @@ a:hover{
 .p6{
     position: absolute;
     top: 3400px;
-    left: 300px;
+    left: 280px;
     display: flex;
     text-align: center;
     width: 18%;
     height:15%;
     color: grey;
 }
-/*  */
-
-/* SECOND BLOCK */
 .circle4{
     width: 75px;
     height: 75px;
@@ -536,16 +512,13 @@ a:hover{
 .p7{
     position: absolute;
     top: 3400px;
-    left: 775px;
+    left: 765px;
     display: flex;
     text-align: center;
     width: 20%;
     height:15%;
     color: grey;
 }
-/*  */
-
-/* THIRD BLOCK */
 .circle5{
     width: 75px;
     height: 75px;
@@ -553,13 +526,13 @@ a:hover{
     border: 3px solid #E27866;
     position: absolute;
     top: 3200px;
-    left: 1390px;
+    left: 1405px;
     border-radius: 100%;
 }
 .visa{
     position: absolute;
     top: 3220px;
-    left: 1410px;
+    left: 1425px;
     width: 40px;
     filter: invert(68%) sepia(63%) saturate(2771%) hue-rotate(315deg) brightness(91%) contrast(89%);
 
@@ -574,10 +547,6 @@ a:hover{
     height:15%;
     color: grey;
 }
-/*  */
-/* ABOUT SECTION END */
-
-/* PRICING SECTION */
 .blue{
     width: 100%;
     height: 850px;
@@ -746,19 +715,13 @@ a:hover{
 .divider_g{
     position: relative;
     top:120px;
-    left: 890px;
+    left: 915px;
     width: 70px;
     height: 30px;
     filter: invert(28%) sepia(96%) saturate(312%) hue-rotate(99deg) brightness(93%) contrast(83%);
     
 }
-/* PRICING SECTION END */
 
-/* REVIEWS SECTION START */
-
-/* REVIEWS SECTION END */
-
-/* CONTACTS SECTION START */
 .orange_b{
     width: 100%;
     height: 850px;
@@ -833,47 +796,3 @@ a:hover{
     border-radius: 4px;
     cursor:url(images/pointer.png), auto;
   }
-.socials2{
-    width: 45%;
-    height: 150px;
-    background: #1C1C1C;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 100px;
-}
-.socials_b{
-    width: 100%;
-    height: 150px;
-    background: #1C1C1C;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.copyright{
-    padding-right: 200px;
-    color: grey;
-    font-size: 20px;
-}
-/* CONTACTS SECTION END */
-
-#features_s{
-    position: absolute;
-    top: 1850px;
-}
-#about_s{
-    position: absolute;
-    top: 2700px;
-}
-#pricing_s{
-    position: absolute;
-    top: 3550px;
-}
-#reviews_s{
-    position: absolute;
-    top: 4400px;
-}
-#contact_s{
-    position: absolute;
-    top: 5250px;
-}

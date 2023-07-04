@@ -937,17 +937,21 @@ a:hover{
         position: absolute;
         top: 150px;
         width: 150px;
-        left: 250px;
+        left: 310px;
+    }
+    .bar_image{
+        position: relative;
+        left: -100px;
     }
 
     .middle{
         position: absolute;
-        left: 350px;
+        left: 400px;
         width: 300px;
     }
     .top{
         position: absolute;
-        left: 350px;
+        left: 400px;
         width: 300px;
         top: 300px;
     }
@@ -966,7 +970,7 @@ a:hover{
     .download{
         position: absolute;
         top: 820px;
-        left: 250px;
+        left: 300px;
     }
     .form_f {
         width: 350px;
@@ -985,11 +989,11 @@ a:hover{
     .texth{
         font-size: 20px;
         position: absolute;
-        top: 1400px;
+        top: 1430px;
     }
     .textp1{
         position: absolute;
-        top: 1500px;
+        top: 1530px;
     }
     input[type=number], select{
         width: 50%;
@@ -999,7 +1003,7 @@ a:hover{
 
     .bottom{
         position: absolute;
-        left: 350px;
+        left: 400px;
         width: 300px;
         top: 700px;
     }
@@ -1007,80 +1011,61 @@ a:hover{
     .logobox{
         position: absolute;
         top: 350px;
-        left: 50px;
+        left: 100px;
         width: 30%;
         font-size: 20px;
     }
     .divider{
         position: absolute;
         top: 420px;
-        left: 115px;
+        left: 165px;
     }
     .p1{
         position: absolute;
         top: 450px;
-        left: 50px;
+        left: 100px;
         font-size: 15px;
         width: 30%;
     }
     .hover1{
         position: absolute;
-        left: 0;
+        left: 245px;
+        top: 1460px;
     }
     .box_left{
         position: absolute;
-        left: 0;
+        left: 245px;
+        top: 1460px;
+
     }
     .box_right{
         position: absolute;
-        left: 0;
+        left: 40px;
+        top: 1460px;
     }
-
+    .col_box{
+        position: absolute;
+        left:150px;
+        top: 1220px;
+        display: flex;
+        flex-direction: row;
+    }
+    .box{
+        width: 150px;
+        height: 150px;
+    }
     .box_bottom{
         position: absolute;
-        left: 0;
+        left:40px;
+        top: 1650px;
     }
 
     .list_boxes{
         position: absolute;
         top: 5000px;
     }
-    .divider_orange{
-        position: absolute;
-        left: 0;
-    }
-    .p2{
-        position: absolute;
-        left: 0;
-    }
-    .erat{
-        position: absolute;
-        left: 0;
-    }
-    .title{
-        position: absolute;
-        left: 0;
-    }
-    .circle{
-        position: absolute;
-        left: 0;
-    }
-    .eye{
-        position: absolute;
-        left: 0;
-    }
-    .circle1{
-        position: absolute;
-        left: 0;
-    }
-    .p3{
-        position: absolute;
-        left: 0;
-    }
-    .p4{
-        position: absolute;
-        left: 0;
-    }
+
+    
     .p5{
         position: absolute;
         left: 0;
@@ -1173,16 +1158,77 @@ a:hover{
         position: absolute;
         left: 0;
     }
-    .chat-bubble{
+    
+    
+    .brand{
         position: absolute;
-        left: 0;
+        left: 250px;
+        top: 2060px;
+        width: 300px;
+    }
+    
+    .divider_orange{
+        position: absolute;
+        left: 260px;
+        top: 2220px;
+    }
+    .p2{
+        position: absolute;
+        left: 450px;
+        top: 2380px;
+        line-height: 30px;
+    }
+    .p3{
+        position: absolute;
+        left: 50px;
+        top: 2500px;
+        width: 30%;
+        font-size: 20px;
+       
+    }
+    .p4{
+        position: absolute;
+        left: 450px;
+        top: 2630px;
+        font-size: 15px;
+        line-height: 30px;
+        width: 245px;
     }
     .title2{
         position: absolute;
-        left: 0;
+        left: 450px;
+        top: 2350px;
     }
-    .brand{
+    .title{
         position: absolute;
-        left: 0;
+        left: 450px;
+        top:2600px ;
+    }
+    .circle{
+        position: absolute;
+        left: 300px;
+    }
+    .eye{
+        position: absolute;
+        left: 314px;
+    }
+    .chat-bubble{
+        position: absolute;
+        left: 317px;
+        top: 2665px;
+    }
+    .circle1{
+        position: absolute;
+        left: 300px;
+        top: 2650px;
+    }
+
+    .erat{
+        position: absolute;
+        left: 160px;
+        top: 2240px;
+        width: 60%;
+        font-size: 30px;
+        text-align: center;
     }
 }

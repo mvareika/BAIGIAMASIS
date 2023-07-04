@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gulp template</title>
+  <title>Baigiamasis Egzaminas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" type="image/x-icon" href="app/images/gulp.svg">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="script.js">
@@ -86,7 +89,7 @@
         
         <div class="mountains"></div>
         <div class="col_box">
-            <button class="box"><span class="box_t"> REGISTER</span></button>
+            <button onclick="scrolldiv()" class="box"><span class="box_t"> REGISTER</span></button>
             <button class="box"><span class="box_t"> APPLY</span></button>
             <button class="box"><span class="box_t"> RECEIVE</span></button>
         </div>
@@ -211,7 +214,25 @@
 </div>
 </section>
 <!-- REVIEWS SECTION END -->
-
+ <!-- Slider main container -->
+ <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+      <div class="swiper-slide"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="swiper.js"></script>
 <!-- CONTACTS SECTIONS START -->
 <section>
     <div class="orange_b">

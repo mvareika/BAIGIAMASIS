@@ -620,8 +620,9 @@ a:hover{
     border-radius: 5px 5px 0 0;
     position: relative;
     top: 50px;
-    
 }
+
+
 .box2{
     width: 320px;
     height: 200px;
@@ -818,6 +819,7 @@ a:hover{
 .form_window{
     width: 500px;
     height: 350px;
+    box-shadow:2px 2px #0000003f;
     position: relative;
     top: 300px;
     left: 670px;
@@ -915,4 +917,272 @@ a:hover{
 #contact_s{
     position: absolute;
     top: 5250px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .bar{
+        width: 100%;
+    }
+    .links{
+        margin-right: 0;
+        display: flex;
+        line-height: 50px;
+        padding-left: 60px;
+    }
+    .logo2{
+        position: absolute;
+        top: 150px;
+        width: 150px;
+        left: 250px;
+    }
+
+    .middle{
+        position: absolute;
+        left: 350px;
+        width: 300px;
+    }
+    .top{
+        position: absolute;
+        left: 350px;
+        width: 300px;
+        top: 300px;
+    }
+    .top_text{
+        font-size: 15px;
+    }
+    input[type=text], select{
+        width: 50%;
+        position: relative;
+        left: -13px;
+    }
+    .radios{
+        width: 50%;
+        font-size: 14px;
+    }
+    .download{
+        position: absolute;
+        top: 820px;
+        left: 250px;
+    }
+    .form_f {
+        width: 350px;
+    }
+    .text{
+        margin-left: 100px;
+    }
+    .socials{
+        width:75%;
+        
+    }
+    .wifi{
+        position: relative;
+        left: -5px;
+    }
+    .texth{
+        font-size: 20px;
+        position: absolute;
+        top: 1400px;
+    }
+    .textp1{
+        position: absolute;
+        top: 1500px;
+    }
+    input[type=number], select{
+        width: 50%;
+        position: relative;
+        left: -13px;
+    }
+
+    .bottom{
+        position: absolute;
+        left: 350px;
+        width: 300px;
+        top: 700px;
+    }
+
+    .logobox{
+        position: absolute;
+        top: 350px;
+        left: 50px;
+        width: 30%;
+        font-size: 20px;
+    }
+    .divider{
+        position: absolute;
+        top: 420px;
+        left: 115px;
+    }
+    .p1{
+        position: absolute;
+        top: 450px;
+        left: 50px;
+        font-size: 15px;
+        width: 30%;
+    }
+    .hover1{
+        position: absolute;
+        left: 0;
+    }
+    .box_left{
+        position: absolute;
+        left: 0;
+    }
+    .box_right{
+        position: absolute;
+        left: 0;
+    }
+
+    .box_bottom{
+        position: absolute;
+        left: 0;
+    }
+
+    .list_boxes{
+        position: absolute;
+        top: 5000px;
+    }
+    .divider_orange{
+        position: absolute;
+        left: 0;
+    }
+    .p2{
+        position: absolute;
+        left: 0;
+    }
+    .erat{
+        position: absolute;
+        left: 0;
+    }
+    .title{
+        position: absolute;
+        left: 0;
+    }
+    .circle{
+        position: absolute;
+        left: 0;
+    }
+    .eye{
+        position: absolute;
+        left: 0;
+    }
+    .circle1{
+        position: absolute;
+        left: 0;
+    }
+    .p3{
+        position: absolute;
+        left: 0;
+    }
+    .p4{
+        position: absolute;
+        left: 0;
+    }
+    .p5{
+        position: absolute;
+        left: 0;
+    }
+    .why{
+        position: absolute;
+        left: 0;
+    }
+    .dividero{
+        position: absolute;
+        left: 0;
+    }
+    .circle4{
+        position: absolute;
+        left: 0;
+    }
+    .lotus{
+        position: absolute;
+        left: 0;
+    }
+    .circle5{
+        position: absolute;
+        left: 0;
+    }
+    .visa{
+        position: absolute;
+        left: 0;
+    }
+    .p7{
+        position: absolute;
+        left: 0;
+    }
+    .p8{
+        position: absolute;
+        left: 0;
+    }
+    .divider_g{
+        position: absolute;
+        left: 0;
+    }
+    .box3{
+        position: absolute;
+        left: 0;
+        top: 2000px;
+    }
+    .box2{
+        position: absolute;
+        left: 0;
+        top: 2100px;
+    }
+    .box1{
+        position: absolute;
+        left: 0;
+        top: 2150px;
+    }
+    .green_li{
+        position: absolute;
+        left: 0;
+        top: 2150px;
+    }
+    .green2{
+        position: absolute;
+        left: 0;
+    }
+    .white_box1{
+        position: absolute;
+        left: 0;
+        top: 2000px;
+    }
+    .white_box2{
+        position: absolute;
+        left: 0;
+        top: 2000px;
+    }
+    .green3{
+        position: absolute;
+        left: 0;
+    }
+    .white_box3{
+        position: absolute;
+        left: 0;
+        top: 3000px;
+    }
+    .form_window{
+        position: absolute;
+        top: 5000px;
+        left: 0;
+    }
+    .list_boxes{
+        position: absolute;
+        left: 0;
+    }
+    .chat-bubble{
+        position: absolute;
+        left: 0;
+    }
+    .title2{
+        position: absolute;
+        left: 0;
+    }
+    .brand{
+        position: absolute;
+        left: 0;
+    }
 }
